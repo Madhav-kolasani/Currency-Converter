@@ -8,6 +8,7 @@ const msg = document.querySelector(".msg");
 
 
 for(let select of dropdowns){
+    select.style.backgroundColor = "#f3f7f0";
     for(let currCode in countryList){
         let newOption = document.createElement("option");
         newOption.innerText = currCode;
